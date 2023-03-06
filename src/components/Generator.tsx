@@ -49,7 +49,7 @@ export default function () {
         archiveSession = parsed.archiveSession
         setSetting({
           ...defaultSetting,
-          ...parsed
+          ...parsed,
           continuousDialogue: false
         })
       }
