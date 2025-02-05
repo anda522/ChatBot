@@ -6,14 +6,6 @@ import PromptList from "./PromptList"
 import prompts from "~/prompts"
 import { Fzf } from "fzf"
 
-const defaultSetting = {
-  continuousDialogue: true,
-  archiveSession: false,
-  openaiAPIKey: "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",
-  openaiAPITemperature: 60,
-  systemRule: ""
-}
-
 export interface PromptItem {
   desc: string
   prompt: string
