@@ -6,6 +6,12 @@ import PromptList from "./PromptList"
 import prompts from "~/prompts"
 import { Fzf } from "fzf"
 
+const defaultSetting = {
+  continuousDialogue: true,
+  archiveSession: false,
+  systemRule: ""
+}
+
 export interface PromptItem {
   desc: string
   prompt: string
